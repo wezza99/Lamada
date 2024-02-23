@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "833866802697",
+    "project_id": "my-food-f8dfc",
+    "storage_bucket": "my-food-f8dfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833866802697:android:4ebd06f036ea42c537bad8",
+        "android_client_info": {
+          "package_name": "com.app.lamadafood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1ujZmjde8h97QQ3OTS-yjlfba-8LyD2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

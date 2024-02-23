@@ -1,0 +1,110 @@
+name: flutter_restaurant
+description: A new Flutter restaurant application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 2.0.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  app_links: ^3.4.3
+  audioplayers: ^0.20.1
+  cached_network_image: ^3.2.1
+  carousel_slider: ^4.2.1
+  circular_countdown_timer: ^0.2.3
+  connectivity_plus: ^4.0.0
+  country_code_picker: ^3.0.0
+  cupertino_icons: ^1.0.5
+  dio: ^5.1.2
+  dotted_border: ^2.0.0+3
+  expandable_bottom_sheet: ^1.1.1+1
+  firebase_auth: ^4.10.0
+  firebase_core: ^2.2.0
+  firebase_messaging: ^14.1.0
+  flutter:
+    sdk: flutter
+  flutter_facebook_auth: ^5.0.6
+  flutter_google_places: ^0.3.0
+  flutter_inappwebview: ^5.7.2+3
+  flutter_local_notifications: ^14.0.0+1
+  flutter_localizations:
+    sdk: flutter
+  flutter_typeahead: ^4.3.7
+  flutter_widget_from_html_core: ^0.8.5+3
+  fwfh_selectable_text: ^0.8.3+1
+  fwfh_text_style: ^2.23.8
+  geocoding: ^2.1.0
+  geolocator: ^9.0.2
+  get_it: ^7.3.0
+  go_router: ^10.1.2
+  google_api_headers: ^1.5.0+1
+  google_maps_flutter: ^2.2.5
+  google_maps_flutter_web: ^0.4.0+8
+  google_maps_webservice: ^0.0.19
+  google_sign_in: ^5.4.2
+  http: ^0.13.5
+  image: ^4.0.16
+  image_picker: ^0.8.7+4
+  intl: any
+  just_the_tooltip: ^0.0.12
+  marquee: ^2.2.3
+  mobile_scanner: ^3.4.1
+  path_provider: ^2.0.14
+  phone_number: ^1.0.0
+  photo_view: ^0.14.0
+  pin_code_fields: ^7.4.0
+  provider: ^6.0.5
+  scroll_to_index: ^3.0.1
+  share_plus: ^4.5.3
+  shared_preferences: ^2.1.0
+  shimmer_animation: ^2.1.0+1
+  sign_in_with_apple: ^4.3.0
+  timezone: ^0.9.2
+  universal_html: ^2.2.1
+  url_launcher: ^6.1.10
+  url_strategy: ^0.2.0
+  webview_flutter: ^4.2.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/image/play_store.png"
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/icon/
+    - assets/image/
+    - assets/language/
+    - assets/json/
+    - assets/payment/
+    - assets/
+    - web/assets/
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400
